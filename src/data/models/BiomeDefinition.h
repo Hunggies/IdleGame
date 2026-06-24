@@ -3,7 +3,7 @@
 #include <string>
 #include <vector>
 
-#include "BiomeEntryDefinition.h"
+#include "BiomeDrop.h"
 
 class BiomeDefinition {
 public:
@@ -12,19 +12,19 @@ public:
 
    std::string name;
 
-   std::vector<BiomeEntryDefinition> fishEntries;
-
-   std::vector<BiomeEntryDefinition> plantEntries;
-
    double fishAmountMultiplier;
 
    double plantCountMultiplier;
 
-   double treasureChanceMultiplier;
-
    double fishingIntervalMultiplier;
 
    double farmingIntervalMultiplier;
+
+   double treasureChanceMultiplier;
+
+   std::vector<BiomeDrop> fishDrops;
+
+   std::vector<BiomeDrop> plantDrops;
 
    BiomeDefinition();
 };

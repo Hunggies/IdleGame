@@ -10,9 +10,9 @@ BiomeDefinition::BiomeDefinition() {
 
    plantCountMultiplier = 1.0;
 
-   treasureChanceMultiplier = 1.0;
-
    fishingIntervalMultiplier = 1.0;
 
    farmingIntervalMultiplier = 1.0;
+
+   treasureChanceMultiplier = 1.0;
 }
