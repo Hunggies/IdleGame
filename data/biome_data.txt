@@ -1,0 +1,23 @@
+# Cấu hình hệ sinh thái Vùng Sông Đục
+BIOME_ID: River
+NAME: Vùng Sông Đục
+TYPE: FISHING
+LEVEL_REQ: 0
+BASE_AMOUNT: 10
+BASE_INTERVAL: 5.0
+LOOT_ITEM: Cod, 0.50, 0, 5       # Tên, Tỉ lệ gốc, Nhóm hiếm (0=Common), EXP nhận/con
+LOOT_ITEM: Salmon, 0.30, 1, 10    # Nhóm hiếm (1=Rare)
+LOOT_ITEM: Pufferfish, 0.20, 2, 20# Nhóm hiếm (2=Epic)
+END_BIOME
+
+# Cấu hình hệ sinh thái Cánh Đồng Nông Trại
+BIOME_ID: GreenField
+NAME: Thung Lũng Xanh
+TYPE: FARMING
+LEVEL_REQ: 5
+BASE_AMOUNT: 15
+BASE_INTERVAL: 8.0
+LOOT_ITEM: Wheat, 0.60, 0, 4
+LOOT_ITEM: Carrot, 0.30, 1, 8
+LOOT_ITEM: Melon, 0.10, 2, 15
+END_BIOME
